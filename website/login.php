@@ -8,7 +8,7 @@ if (isset($_SESSION['admin'])) {
     redirectPath("messages.php");
 }
 ?>
-<div class="container">
+<div class="container mt-5" style='margin-bottom: 250px;'>
     <div class="row">
         <div class="col-8 mx-auto my-5 ">
             <h2 class="border p-2  my-2 text-center bg-primary text-light">Login</h2>
